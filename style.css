@@ -118,25 +118,25 @@ body {
     padding-top: 60px;
     padding-left: 60px;
 }
-}
-
 
 
 .titre-principal {
     display:flex;
     flex-wrap:wrap;
     flex-direction: column;
-    margin-top: 14px;
+    margin-top: 22px;
+    margin-left: 80px;
 }
 
 
 .titre {
-    font-size: 22px;
+    font-size: 28px;
 }
 
 
 .titre2 {
-    margin-top: -7px;
+    margin-top: -12px;
+    font-size: 21px;
 }
 
 
