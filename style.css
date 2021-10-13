@@ -27,15 +27,12 @@ h3 {
 body {
     font-family: "Raleway-Regular", serif;
     background-color:rgb(255, 255, 255);
-    margin-left: 53px;
-    margin-right: 53px;
-    margin-top: 40px;
 }
 
 
 .logo img {
-    margin-top: 11px;
-    width: 100%;
+    margin-top: 45px;
+    width: 130px;
 }
 
 
@@ -44,6 +41,9 @@ body {
     flex-direction: row;
     display: flex;
     justify-content: space-between;
+    margin-left: 75px;
+
+    margin-right: 109px;
 }
 
 @media (max-width: 600px){
@@ -57,9 +57,8 @@ body {
     display: flex;
     flex-direction: row;
     background-color: none;
-    margin-left: 60px;
-    margin-right: 60px;
-    margin-top: 10px;
+    font-size: 21px;
+
 }
 
 
@@ -68,8 +67,14 @@ body {
     flex-direction: column;
     text-decoration: none;
     color: rgb(0, 0, 0);
-    margin-top: -50px;
-    padding-top: 65px;
+    margin-top: -8px;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px #002fff solid;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom: none;
 }
 
 .boutonhebergement:hover {
@@ -86,13 +91,13 @@ body {
 .boutonactivites {
     display: flex;
     flex-direction: column;
-    margin-top: 15px;
     text-decoration: none;
     color: rgb(0, 0, 0);
-    padding-left: 40px;   
-    padding-right: 40px;   
-    margin-top: -50px;
-    padding-top: 65px;
+    margin-top: -8px;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 30px;
+
 }
 
 .boutonactivites:hover {
@@ -105,20 +110,17 @@ body {
 
 
 .boutoninscrire {
-    margin-top: 15px;
     text-decoration: none;
     color: rgb(0, 0, 0);
-    padding-left: 24px;
     font-weight: bold;
     color:#0065FC;
+    margin-top: -7px;
+    padding-top: 60px;
+    padding-left: 60px;
+}
 }
 
 
-
-.bouton2:hover {
-    color: #002fff;
-
-}
 
 .titre-principal {
     display:flex;
