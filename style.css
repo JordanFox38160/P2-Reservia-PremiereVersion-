@@ -94,7 +94,7 @@ body {
     text-decoration: none;
     color: rgb(0, 0, 0);
     margin-top: -8px;
-    padding-top: 60px;
+    padding-top: 62px;
     padding-left: 60px;
     padding-right: 30px;
 
@@ -143,14 +143,15 @@ body {
 .recherche {
     display: flex;
     margin-top: 3px;
+    margin-left: 80px;
 }
 
 
 .container-map {
-
-    background-color: #f3f2f2;
-    width: 52px;
-    height: 49px;
+    margin-top: -1px;
+    background-color: #F2F2F2;
+    width: 65px;
+    height: 66px;
     border-radius: 15px 0px 0px 15px ;
     border-top: 1px solid #f3f3f2;
     border-bottom: 1px solid #f3f3f2;
@@ -163,26 +164,28 @@ body {
 }
 
 .container-recherche {
-    background-color: white;
-    width: 232px;
-    height: 49px;
-    border-top: 1px solid #f3f2f2;
-    border-bottom: 1px solid #f3f2f2;
+    background-color: rgb(255, 255, 255);
+    width: 305px;
+    height: 64px;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
 
 }
 
 
 .bouton {
+    width: 132px;
+    height: 46px;
     font-family: "Raleway-Regular", serif;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 23px;
     text-decoration: none;
-    padding-left: 20px;
+    padding-left: 22px;
     padding-right: 20px;
-    padding-top: 15px;
+    padding-top: 20px;
     background: #0065FC; 
     color: white; 
-    border-radius: 0px 15px 15px 0px ;
+    border-radius: 0px 20px 20px 0px ;
 
 }
 
@@ -228,9 +231,11 @@ input:focus {
 
 
 #ville {
+    margin-top: -16px;
+    height: 62px;
     border: 0px solid;
-    padding-left: 16px;
-    font-size: 18px;
+    margin-left: 20px;
+    font-size: 24px;
     font-weight: bold;
     
 }
@@ -392,9 +397,9 @@ input::placeholder {
 }
 
 #map-icone {
-    padding-top: 15px;
-    padding-left: 19px;
-    height: 55px;
+    padding-top: 20px;
+    padding-left: 22px;
+    font-size: 25px;
     padding-right: 19px;
 }
 
