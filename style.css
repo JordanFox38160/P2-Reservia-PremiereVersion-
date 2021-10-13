@@ -248,15 +248,15 @@ input::placeholder {
 .nav-bar {
     display:flex;
     flex-wrap:wrap;
-    margin-top: 32px;
+    margin-top: 40px;
     font-size: 9px;
     padding-left: 7px;
-    
+    margin-left: 80px;
 }
 
 .filtre {
     margin-right: 35px;
-    margin-top:  -2px;
+    margin-top:  2px;
     margin-left: 2px;
 }
 
@@ -270,126 +270,81 @@ input::placeholder {
 }
 
 
-.economique {
+.textebulle {
     margin-top: 11px;
+    margin: auto;
+    font-size: 22px;
 }
 
-.familial {
-    margin-top: 11px;
-}
-
-
-.romantique {
-    margin-top: 11px;
-}
-
-.animaux {
-    margin-top: 11px;
-}
-
-.bulle1 {
+.bulle {
     display: flex;
-    width: 108px;
-    height: 45px;
-    padding-left: 59px;
-    padding-right: 20px;
+    width: 150px;
+    height: 61px;
+    padding-left: 55px;
+    padding-right: 15px;
     margin-right: 25px;
     margin-bottom: 20px;
     background-color: white;
     border-radius: 30px;
-    border: solid 2px #D9D9D9;
+    border: solid 3px #D9D9D9;
     
 }
 
-.bulle1:hover {
+.bulleanimaux {
+    display: flex;
+    width: 250px;
+    height: 61px;
+    padding-left: 50px;
+    padding-right: 15px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 30px;
+    border: solid 3px #D9D9D9;
+    
+}
+
+.bulle:hover {
     background-color: rgb(230, 230, 230);
 }
 
 
 .logoeco {
     position: absolute;
-    width: 48px;
-    height: 49px;
+    width: 65px;
+    height: 65px;
+    margin-left: -10px;
     background-color: #DEEBFF;
     border-radius: 50px;
-}
-
-.bulle2 {
-    display: flex;
-    width: 65px;
-    height: 45px;
-    padding-left: 60px;
-    padding-right: 20px;
-    margin-bottom: 20px;
-    background-color: white;
-    border-radius: 30px;
-    border: solid 2px #D9D9D9;
-    margin-right: 25px;
-}
-
-.bulle2:hover {
-    background-color: rgb(230, 230, 230);
 }
 
 
 .logofamille {
     position: absolute;
-    width: 48px;
-    height: 49px;
+    width: 65px;
+    height: 65px;
     background-color: #DEEBFF;
     border-radius: 50px;
     margin-left: -62px;
     margin-top: -2px;
-}
-
-.bulle3 {
-    display: flex;
-    width: 103px;
-    height: 45px;
-    padding-left: 60px;
-    padding-right: 20px;
-    margin-bottom: 20px;
-    background-color: white;
-    border-radius: 30px;
-    border: solid 2px #D9D9D9;
-    margin-right: 22px;
-}
-
-.bulle3:hover {
-    background-color: rgb(230, 230, 230);
 }
 
 
 .logoromantique {
     position: absolute;
-    width: 48px;
-    height: 49px;
+    width: 65px;
+    height: 65px;
     background-color: #DEEBFF;
     border-radius: 50px;
     margin-left: -62px;
     margin-top: -2px;
 }
 
-.bulle4 {
-    display: flex;
-    width: 160px;
-    height: 45px;
-    padding-left: 60px;
-    padding-right: 20px;
-    margin-bottom: 20px;
-    background-color: white;
-    border-radius: 30px;
-    border: solid 2px #D9D9D9;
-}
-
-.bulle4:hover {
-    background-color: rgb(230, 230, 230);
-}
 
 .logoanimaux {
     position: absolute;
-    width: 48px;
-    height: 49px;
+    width: 65px;
+    height: 65px;
     background-color: #DEEBFF;
     border-radius: 50px;
     margin-left: -62px;
@@ -404,23 +359,31 @@ input::placeholder {
 }
 
 #money-icone {
-    padding-top: 15px;
-    padding-left: 13px;
+    padding-top: 20px;
+    padding-left: 17px;
+    color: #0065FC;
+    font-size: 24px;
 }
 
 #famille-icone {
-    padding-top: 14px;
-    padding-left: 17px;
+    padding-top: 16px;
+    padding-left: 22px;
+    color: #0065FC;
+    font-size: 29px;
 }
 
 #heart-icone {
-    padding-top: 14px;
-    padding-left: 14px;
+    padding-top: 19px;
+    padding-left: 19px;
+    color: #0065FC;
+    font-size: 29px;
 }
 
 #dog-icone {
-    padding-top: 14px;
-    padding-left: 12px;
+    padding-top: 16px;
+    padding-left: 16px;
+    color: #0065FC;
+    font-size: 29px;
 }
 
 #citation1 {
