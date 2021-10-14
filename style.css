@@ -68,15 +68,11 @@ body {
     flex-direction: column;
     text-decoration: none;
     color: rgb(0, 0, 0);
-    margin-top: -8px;
+    margin-top: 0px;
     padding-top: 60px;
     padding-left: 30px;
     padding-right: 30px;
-    border: 2px #002fff solid;
-    border-left-style: none;
-    border-right-style: none;
-    border-bottom: none;
-    
+
 }
 
 .boutonhebergement:hover {
@@ -94,8 +90,8 @@ body {
     flex-direction: column;
     text-decoration: none;
     color: rgb(0, 0, 0);
-    margin-top: -8px;
-    padding-top: 62px;
+    margin-top: 0px;
+    padding-top: 60px;
     padding-left: 60px;
     padding-right: 30px;
 
@@ -317,9 +313,10 @@ input::placeholder {
     position: absolute;
     width: 65px;
     height: 65px;
-    margin-left: -10px;
     background-color: #DEEBFF;
     border-radius: 50px;
+    margin-left: -62px;
+    margin-top: -2px;
 }
 
 
@@ -940,6 +937,7 @@ input::placeholder {
 
      /*Marge a 0 pour la version mobile*/
     .menu {
+        margin-top: -40px;
     }
 
     /*Onglet hébergement qui s'adapte a la version mobile*/
@@ -951,6 +949,8 @@ input::placeholder {
         padding-bottom: 10px;
         border-left-style: none;
         border-right-style: none;
+        padding-left: 25px;
+        padding-right: 25px;
         border-top: none;
         color: #002fff;
         font-size: 18px; 
@@ -964,6 +964,9 @@ input::placeholder {
         padding-bottom: 10px;
         border-left-style: none;
         border-right-style: none;
+        padding-left: 50px;
+        padding-right: 46px;
+        margin-top: 2px;
         border-top: none;
         color: #000000;  
         font-size: 18px; 
@@ -971,9 +974,9 @@ input::placeholder {
      
     /*Bouton s'inscrire qui se place en haut a droite*/    
     .boutoninscrire {
-        margin-top: -69px;
+        margin-top: -55px;
         font-size: 18px;
-        margin-left: -220px;
+        margin-left: -160px;
         }  
 
     /*Titre principal qui s'adapte a la version mobile*/
@@ -1050,12 +1053,98 @@ input::placeholder {
     /*Symbole de la loupe qui apparait dans le bouton bleu sur la version mobile*/                 
     .bouton-loupe {
         visibility: visible;
-        margin-left: -200px;
+        margin-left: -210px;
         border-radius: 15px;
         width: 20px;
-    
+
     }
 
+    /*Redimension des bulles, du texte dans les bulles ainsi que des bouton pour la version mobile*/
+
+    .bulle {
+        height: 50px;
+        width: 105px;
+    }
+
+    .logoeco {
+        width: 55px;
+        height: 55px;
+    }
+
+    #money-icone {
+        font-size: 20px;
+        margin-top: -2px;
+        padding-left: 15px;
+    }
+
+    .logofamille {
+        width: 55px;
+        height: 55px;
+    }
+    
+    #famille-icone {
+        font-size: 25px;
+        margin-top: -1px;
+        padding-left: 17px;
+    }
+
+    .logoromantique {
+        width: 55px;
+        height: 55px;
+    }
+
+    #heart-icone {
+        font-size: 25px;
+        margin-top: -3px;
+        padding-left: 15px;
+    }
+
+    .bulleanimaux {
+        height: 50px;
+        width: 170px;
+    }
+    
+    .logoanimaux {
+        width: 55px;
+        height: 55px;
+    }
+
+    #dog-icone {
+        font-size: 25px;
+        margin-top: -3px;
+        padding-left: 15px;
+    }
+
+    .textebulle {
+        font-size: 18px;
+        margin-left: 0px;
+    }
+
+
+    /*Redimension de la bulle avec le logo information*/ 
+    .information {
+        width: 30px;
+        height: 22px;
+        margin-left: 15px;
+        
+    }
+
+    #logoinformation {
+        font-size: 10px;
+        padding-left: 11px;
+    }
+    
+    /*Margin de 15px pour la section citation*/ 
+    #citation1 {
+        margin-left: -5px;
+        padding-right: 20px;
+    }
+
+     /*Citation qui passe en 16px avec un padding left de 5px*/ 
+    .citation {
+        font-size: 15px;
+        padding-left: 5px;
+    }
 
     /*Le block "Les plus populaire" et "Hébergement à Marseille" passe en mode collum sur mobile*/ 
     .contenu {
@@ -1082,25 +1171,6 @@ input::placeholder {
     /*Margin de 10px pour la navbar (économique, familial, romantique et animaux autorisés)*/ 
     .nav-bar {
         margin-left: 10px;
-    }
-
-    /*Redimension de la bulle avec le logo information*/ 
-    .information {
-        width: 32px;
-        height: 23px;
-    
-    }
-    
-    /*Margin de 15px pour la section citation*/ 
-    #citation1 {
-        margin-left: 15px;
-        margin-right: 15px;
-    }
-
-     /*Citation qui passe en 16px avec un padding left de 5px*/ 
-    .citation {
-        font-size: 16px;
-        padding-left: 5px;
     }
 
      /*Enleve le padding du container "Les plus populaire" et rajoute un margin left de 15px pour centré le contenu*/ 
