@@ -27,10 +27,12 @@ h3 {
 body {
     font-family: "Raleway-Regular", serif;
     background-color:rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
 }
 
 
-.logo img {
+.header img {
     margin-top: 45px;
     width: 130px;
 }
@@ -74,6 +76,7 @@ body {
     border-left-style: none;
     border-right-style: none;
     border-bottom: none;
+    
 }
 
 .boutonhebergement:hover {
@@ -134,7 +137,7 @@ body {
 
 .titre2 {
     margin-top: -12px;
-    font-size: 21px;
+
 }
 
 
@@ -165,8 +168,8 @@ body {
     background-color: rgb(255, 255, 255);
     width: 305px;
     height: 64px;
-    border-top: 1px solid #F2F2F2;
-    border-bottom: 1px solid #F2F2F2;
+    border-top: 1px solid #f3f3f2;
+    border-bottom: 1px solid #f3f3f2;
 
 }
 
@@ -919,36 +922,31 @@ input::placeholder {
 
 @media (max-width: 375px) {
 
-    body {
-        margin-left: 0px;
-        margin-right: 0px;
-        margin-top: 0px;  
-    }
-    
     /*Logo réservia mobile*/
 
-    .logo img {
-        margin-left: -50px;  
-        margin-top: 30px;
-        width: 60%;
+    #logo {
+        margin-top: 10px;
+        margin-left: 10px;  
+        width: 30%;
     }
 
 
      /*Header qui passe en collum*/
 
     .header {
-        flex-direction:column;      
+        flex-direction:column;
+        margin: 0;
         }
 
      /*Marge a 0 pour la version mobile*/
     .menu {
-        margin-left: -90px;
-        margin-top: -30px;
     }
 
     /*Onglet hébergement qui s'adapte a la version mobile*/
 
     .boutonhebergement {
+        height: 32px;
+        margin-left: 0px;
         border: 3px #002fff solid;
         padding-bottom: 10px;
         border-left-style: none;
@@ -960,6 +958,8 @@ input::placeholder {
     
     /*Onglet activites qui s'adapte a la version mobile*/
     .boutonactivites {
+        height: 30px;
+        margin-left: 0px;
         border: 3px #d6d6d6 solid;
         padding-bottom: 10px;
         border-left-style: none;
@@ -978,18 +978,25 @@ input::placeholder {
 
     /*Titre principal qui s'adapte a la version mobile*/
     .titre-principal {
-        padding-right: 20px;
-        margin-left: 20px;
+        margin : 0;
         }
 
     /*Taille de la police du titre principal qui s'aggrandis*/    
     .titre {
-        font-size: 24px;
+        padding-right: 90px;
+        margin-left: 20px;
+        font-size: 20px;
         margin-bottom: 20px;
-        }  
+        
+        } 
 
-
-    /*Taille de la police du titre principal qui s'aggrandis*/    
+    .titre2 {
+        margin-left: 20px;
+        margin-bottom: 30px;
+        font-size: 14px;
+            }  
+    
+    /*Ajustement de la taille de la loupe*/    
     .container-map {
         margin-left: 20px;
         height: 55px;
@@ -998,24 +1005,54 @@ input::placeholder {
 
     #map-icone {
         font-size: 17px;
-        margin-top: 5px;
+        margin-top: -2px;
+        margin-left: -3px;
         }
+
+    .container-map {
+        width: 50px;
+        height: 50px;
+        
+    }
+
+    #ville {
+        height: 40px;
+        width: 180px;
+        margin-left: 5px;
+        font-size: 17px;
+    }
+
+    .recherche {
+        margin-left: 0px;
+        }
+        
+    .bouton {
+        height: 20px;
+    
+    }
+
 
     /*Barre de recherche qui s'adapte a la version mobile*/            
     .container-recherche {
         width: 240px;
-        height: 55px;
+        height: 48px;
     }
 
     /*Texte "Recherche" dans le bouton bleu qui se cache sur la version mobile*/              
     .bouton {
         visibility: hidden;
                 }
+    #loupe {
+        margin-left: -3px;
+        margin-top: -3px;
+    }
 
     /*Symbole de la loupe qui apparait dans le bouton bleu sur la version mobile*/                 
     .bouton-loupe {
         visibility: visible;
-        margin-left: -150px;
+        margin-left: -200px;
+        border-radius: 15px;
+        width: 20px;
     
     }
 
