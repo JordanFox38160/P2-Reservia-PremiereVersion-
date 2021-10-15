@@ -965,7 +965,7 @@ input::placeholder {
         border-left-style: none;
         border-right-style: none;
         padding-left: 50px;
-        padding-right: 46px;
+        padding-right: 80px;
         margin-top: 2px;
         border-top: none;
         color: #000000;  
@@ -1174,13 +1174,59 @@ input::placeholder {
     }
 
      /*Enleve le padding du container "Les plus populaire" et rajoute un margin left de 15px pour centré le contenu*/ 
+
+     .titrepopulaire {
+        font-size: 25px;
+        margin-left: 20px;
+    }
+
+    .fa-chart-line {
+        margin-left: 85px;
+        font-size: 23px;
+        margin-top: 25px;
+    }
+
     .containerphoto2 {
         padding-left: 0px;
         padding-right: 0px;
-        margin-left: 15px;
+        margin-left: 0px;
+        height: auto;
     }
 
-     /*Marge container activités format mobile*/ 
+    
+    .hotelcontainer2 {
+        width: 335px;
+        height: 150px;
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-bottom: 15px;
+    }
+
+    .nomhotel2 {
+        font-size: 18px;
+    }
+
+    .prixnuit3 {
+        font-size: 14px;
+    }
+
+    #soleil {
+        height: 150px;
+        width: 140px;
+    }
+
+    #eau {
+        height: 150px;
+        width: 140px;
+    }
+
+    #bleu {
+        height: 150px;
+        width: 163px;
+    }
+
+
+    /*Marge container activités format mobile*/ 
     .contenu2 {
         margin-left: 10px;
         margin-right: 10px;
