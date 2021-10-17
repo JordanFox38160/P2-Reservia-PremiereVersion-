@@ -918,7 +918,7 @@ input::placeholder {
 
 /*MOBILE*/
 
-@media (max-width: 768px) {
+@media (min-width: 375px) {
 
     /*Logo réservia mobile*/
 
@@ -950,8 +950,8 @@ input::placeholder {
         padding-bottom: 5px;
         border-left-style: none;
         border-right-style: none;
-        padding-left: 90px;
-        padding-right: 110px;
+        padding-left: 40px;
+        padding-right: 40px;
         border-top: none;
         color: #002fff;
         font-size: 16px; 
@@ -965,8 +965,8 @@ input::placeholder {
         padding-bottom: 5px;
         border-left-style: none;
         border-right-style: none;
-        padding-left: 125px;
-        padding-right: 130px;
+        padding-left: 60px;
+        padding-right: 60px;
         margin-top: 2px;
         border-top: none;
         color: #000000;  
@@ -1037,8 +1037,9 @@ input::placeholder {
 
     /*Margin pour centrée la barre de recherche*/  
     .recherche {
-        margin-left: 150px;
-        margin-bottom: -30px
+        margin-bottom: -30px;
+        margin-left: 0px;
+        justify-content: center;
     }
 
     /* Taille de la barre de recherche qui s'adapte a la version mobile*/            
@@ -1136,7 +1137,7 @@ input::placeholder {
 
     /*Redimension de la bulle avec le logo information*/ 
     .information {
-        width: 25px;
+        width: 35px;
         height: 25px;
         margin-left: 15px;
         
@@ -1150,7 +1151,7 @@ input::placeholder {
     
     /*Margin de 15px pour la section citation*/ 
     #citation1 {
-        margin-left: 70px;
+        margin-left: 0px;
         padding-right: 20px;
     }
 
@@ -1339,17 +1340,17 @@ input::placeholder {
                 }
             }
 
+/*Tablette*/
 
-/*TABLETTE*/
 
-@media (max-width: 768px) {
-
-    /*Logo réservia mobile*/
+@media (min-width: 768px){
+    
+    /*Logo réservia tablette*/
 
     #logo {
         margin-top: 10px;
         margin-left: 10px;  
-        width: 30%;
+        width: 20%;
     }
 
 
@@ -1360,12 +1361,12 @@ input::placeholder {
         margin: 0;
         }
 
-     /*Marge a 0 pour la version mobile*/
+     /*Marge a 0 pour la version tablette*/
     .menu {
         margin-top: -40px;
     }
 
-    /*Onglet hébergement qui s'adapte a la version mobile*/
+    /*Onglet hébergement qui s'adapte a la version tablette*/
 
     .boutonhebergement {
         height: 32px;
@@ -1374,8 +1375,8 @@ input::placeholder {
         padding-bottom: 5px;
         border-left-style: none;
         border-right-style: none;
-        padding-left: 35px;
-        padding-right: 35px;
+        padding-left: 90px;
+        padding-right: 90px;
         border-top: none;
         color: #002fff;
         font-size: 16px; 
@@ -1389,8 +1390,8 @@ input::placeholder {
         padding-bottom: 5px;
         border-left-style: none;
         border-right-style: none;
-        padding-left: 50px;
-        padding-right: 80px;
+        padding-left: 110px;
+        padding-right: 160px;
         margin-top: 2px;
         border-top: none;
         color: #000000;  
@@ -1461,9 +1462,9 @@ input::placeholder {
 
     /*Margin pour centrée la barre de recherche*/  
     .recherche {
-        margin-left: 30px;
-        margin-right: 30px;
-        margin-bottom: -30px
+        margin-bottom: -30px;
+        margin-left: 0px;
+        justify-content: center;
     }
 
     /* Taille de la barre de recherche qui s'adapte a la version mobile*/            
@@ -1558,9 +1559,6 @@ input::placeholder {
         margin-left: 0px;
     }
 
-    .menu2 {
-
-    }
 
     /*Redimension de la bulle avec le logo information*/ 
     .information {
@@ -1578,7 +1576,7 @@ input::placeholder {
     
     /*Margin de 15px pour la section citation*/ 
     #citation1 {
-        margin-left: -5px;
+        margin-left: 0px;
         padding-right: 20px;
     }
 
@@ -1645,6 +1643,7 @@ input::placeholder {
         padding-right: 0px;
         margin-left: 0px;
         height: auto;
+        width: auto;
     }
 
     
@@ -1765,5 +1764,3 @@ input::placeholder {
                     height: 120px;
                 }
             }
-
-
